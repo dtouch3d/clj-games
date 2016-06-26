@@ -2,4 +2,6 @@
 
 (enable-console-print!)
 
-(println "Helloooooo!")
+(def canvas (. js/document getElementById "myCanvas"))
+
+(println canvas)
